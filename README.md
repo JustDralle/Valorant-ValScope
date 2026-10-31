@@ -144,9 +144,10 @@ USE AT YOUR OWN RISK. With all programs like this, there is no guarantee that it
 (imo, there's a really really low risk to getting banned or anything)
 
 # Buy me a coffee
-This software took me times to make it works and bypass riot's nickname hidding system, I'm doing it all on my free time so any help is really appreciated.
-You can donate anything you want here : https://buymeacoffee.com/drallewastaken
-For those that donates, There'll be a place for you on my website to thanks you helping me : https://dralle.fr
+ValScope took a lot of time to build, and I work on it in my free time, so any support is really appreciated.
+You can donate whatever you want here: https://buymeacoffee.com/drallewastaken
+
+Everyone who donates gets a thank-you spot on my website: https://dralle.fr
 
 # License
 Copyright (c) 2026 Dralle
