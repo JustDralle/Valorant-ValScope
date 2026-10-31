@@ -1,6 +1,10 @@
 # ValScope
 Smurf check for every player in your VALORANT match, plus a tracker-style view of your own matches and of any player.
 
+<p align="center">
+    <img src="example.png" alt="screenshot of ValScope (demo mode)">
+</p>
+
 By Dralle
 
 # Quick start
