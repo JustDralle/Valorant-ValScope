@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ValScope by Dralle</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="brand-bar"></span>
+      <div>
+        <h1>VALSCOPE</h1>
+        <p>Smurf check for every player in your match · click a player for their last matches</p>
+      </div>
+    </div>
+    <div class="actions">
+      <form id="search" class="search" autocomplete="off">
+        <input id="search-input" placeholder="Name#TAG (ex: TenZ#0001)" spellcheck="false">
+        <button class="btn" type="submit">SEARCH</button>
+      </form>
+      <div id="live-controls" class="live-controls">
+        <label class="switch"><input type="checkbox" id="only-hidden"><span></span>Only hidden</label>
+        <button class="btn primary" id="check-now">CHECK NOW</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="live">Live match</button>
+    <button class="tab" data-tab="career">Career</button>
+  </nav>
+
+  <main>
+    <section id="live" class="view"></section>
+    <section id="career" class="view hidden"></section>
+  </main>
+
+  <div id="overlay" class="overlay hidden"></div>
+  <div id="toast" class="toast"></div>
+
+  <div id="region" class="modal hidden">
+    <div class="modal-card">
+      <h2>Your region</h2>
+      <p>The server region you play on.</p>
+      <select id="region-select">
+        <option value="eu">EU</option><option value="na">NA</option><option value="latam">LATAM</option>
+        <option value="br">BR</option><option value="ap">AP</option><option value="kr">KR</option><option value="pbe">PBE</option>
+      </select>
+      <button class="btn primary" id="region-save">SAVE</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
